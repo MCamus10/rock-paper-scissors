@@ -4,8 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="./rps.js" defer></script>
 </head>
 <body>
-    <script src="./rps.js"></script>
+    <h1>Rock-Paper-Scissors Game</h1>
+    <p>Your Score: <span id="humanScore">0</span></p>
+    <p>Computer Score: <span id="computerScore">0</span></p>
+    <p id="selection">-</p>
+    <p id="roundResult">-</p>
+    <div class="buttons">
+        <button id="rock">Rock</button>
+        <button id="paper">Paper</button>
+        <button id="scissors">Scissors</button>
+    </div>
+    <button id="reset">Reset</button>
 </body>
 </html>
